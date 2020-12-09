@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+ <title>Offscreen magazine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main2.css">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<!--
+      <div class="nav">
+      <label for="toggle">&#9776;</label>
+    </div>
+    <input type="checkbox" name="" id="toggle">
+-->
+    <header>
+    <div class=container>
+    <h1 ><a href="#" id="heading"><strong>Offscreen</strong></a></h1>
+    <div class="head">
+    <div class="head_inner"><a href="#mgzns" class="black">Magazine</a></div>
+    <div class="head_inner"><a class="black" href="#abt">About</a></div>
+    <div class="head_inner"><a href="#cont" class="black">Contacts</a></div>
+<!--    <button href="#" class="head_inner" id="button">Buy/Subscribe</button>-->
+    </div>
+    </div>
+    </header>
+    <hr>
+    <div class="main">
+    <div class="main_in"> Welcome to Offscreen, an independent<a class="text"> print magazine </a> with a thoughtful, human-centred take on technology and the web. Discover purpose-driven people, products, and ideas that shape the future. <a href="#" class="text">More about us.</a> </div>
+    </div>
+    
+    <div class="main_">
+    <div class="container_top">
+    <div class="container_main">
+    <div class="text_magazine">
+    <div class="container_magazine">
+                        <h1 id="magazinee">Magazine</h1>
+                        <h2>Fresh Thinking on Tech, in Print</h2>
+                        <h3>Published three times per year in beautiful print, Offscreen Magazine is a thoughtful deep dive into the entrepreneurial spirit and future vision of people working with technology.</h3>
+    <div class="boxes">
+    <div class="box1">
+                                <p>In-depth interviews<br>
+                                    Intimate conversations with entrepreneurs, designers, thinkers, activists, researchers, and more. </p>
+    </div>
+    <div class="box2">
+                                <p>
+                                    New accessories and projects
+                                    A showcase of compelling, impactful gear, ideas, and projects to watch. 
+                                </p>
+    </div>
+    <div class="box3">
+    <p>
+        Introspective essays
+        Food for thought through reflective, personal stories on life and work in a connected world 
+    </p>
+    </div>
+    <div class="box4">
+    <p>Inspiration and advice Diverse opinions and insights by technologists from around the world. 
+    </p>
+    </div>
+    </div>
+    <div class="btn">
+<!--    <button id="buy">Buy/Subscribe now</button>-->
+    </div>
+    </div>
+    </div>
+    <div class="image">
+    <img id="cover" src="cover.jpg">   
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="mgzns">Magazines</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <div class="main2">
+    <div class="container_top">
+    <div class="container_main2">
+    <div class="text_magazine2">
+    <div class="container_magazine2">
+        <div class="issue21">
+            <br>
+            <a class="whitecolor">Kim Goodwin</a> The leadership coach believes effective human-centred design requires better decision-making – not pixel-pushing.<br><br><br><br>
+
+         <a class="whitecolor">James Bridle</a> Rise against the machines: the artist and writer warns of a future clouded and dominated by technology.<br><br><br><br>
+
+    <a class="whitecolor">Renée DiResta</a> The research pioneer who helps to expose the spread of disinformation and conspiracy theories on social media.<br><br><br><br>
+
+    <a class="whitecolor">Nathan Schneider</a> Making work work for all: the cooperative model as an alternative to the robber-baron tech economy.<br><br><br>
+        </div>
+    <div class="btn">
+    <button id="buy" onclick="popup()" >Buy/Subscribe now</button>
+        
+        
+    </div>
+    </div>
+    </div>
+    <div class="image">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" id="cover1" src="cover1.jpg" >   
+        
+        
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    
+     <div class="popup">
+         <div class="popup-content">
+            <img onclick = "close_popup()" class = "x1" src="cancel.png" width="5%">
+            <img  src="Credo 33 png.png" width="40%" style="margin-top: 30px;margin-bottom: 30px;">
+            <p>We will contact you</p>
+            <input id="username" type="text" name="username" placeholder="Name Surname">
+            <input  id ="usernumber" type="text" name="num" placeholder="Phone number">
+            <input  id ="usermail" type="text" name="mail" placeholder="Quantity">
+             <input  id ="usermail" type="text" name="mail" placeholder="Postcode">
+
+            <button id = "question"  onclick = "close_popup()" class="btn btn-success" style="color: black;">Submit</button>
+          </div>
+         </div>
+      
+    
+    
+    
+    
+    <div class="main3">
+    <div class="container_top">
+    <div class="container_main3">
+    <div class="text_magazine3">
+    <div class="container_magazine3">
+        <div class="issue22">
+        <br>
+            <a class="whitecolor">Cennydd Bowles</a> Calling for a new ethical awakening in technology and design – fuelled by individual and collective action.<br><br><br><br>
+
+<a class="whitecolor">Jenny Odell</a> The author and artist on how we can rediscover the true value of time by doing nothing.<br><br><br><br>
+
+<a class="whitecolor">Paul Ford</a> Deciphering the code of tech: a writer, programmer, and CEO interprets the power dynamics of today.<br><br><br><br>
+
+<a class="whitecolor">Anab Jain</a> ‘The future is old’: the designer and educator explores uncertainties to build future worlds we can experience now.<br><br><br><br>
+
+        </div>
+    <div class="btn">
+    <button id="buy" onclick="popup1()" >Buy/Subscribe now</button>
+    </div>
+    </div>
+        
+        
+        
+        
+          <div class="popup1">
+         <div class="popup-content1">
+            <img onclick = "close_popup1()" class = "x1" src="cancel.png" width="5%">
+            <img  src="Credo 33 png.png" width="40%" style="margin-top: 30px;margin-bottom: 30px;">
+            <p>We will contact you</p>
+            <input id="username" type="text" name="username" placeholder="Name Surname">
+            <input  id ="usernumber" type="text" name="num" placeholder="Phone number">
+            <input  id ="usermail" type="text" name="mail" placeholder="Quantity">
+             <input  id ="usermail" type="text" name="mail" placeholder="Postcode">
+
+            <button id = "question"   onclick = "close_popup1()" class="btn btn-success" style="color: black;">Submit</button>
+          </div>
+         </div>
+        
+        
+        
+        
+        
+        
+    </div>
+    <div class="image">
+    <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" id="cover2" src="cover-2.jpg">   
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+     
+    <div class="main4">
+    <div class="container_top">
+    <div class="container_main4">
+    <div class="text_magazine4">
+    <div class="container_magazine4">
+        <br>
+<div class="issue23"><a class="whitecolor">Rachel Botsman</a> The trust expert challenges what we think we know about power, control, and the truth.<br><br><br><br>
+
+<a class="whitecolor">Bruce Schneier</a> Hacking society: how tech and policy must come together to face the threats of our interconnected world.<br><br><br><br>
+
+<a class="whitecolor">Seth Godin</a> The marketing pioneer and online ‘ruckus maker’ on doing work that matters for people who care.<br><br><br><br>
+
+<a class="whitecolor">Genevieve Bell</a> Keeping the humanity in technology in a future of artificial intelligence and cyber-physical systems.<br><br><br></div>
+        
+        <div class="btn">
+    <button id="buy" onclick="popup2()">Buy/Subscribe now</button>
+    </div>
+    
+        
+     <div class="popup2">
+         <div class="popup-content2">
+            <img onclick = "close_popup2()" class = "x1" src="cancel.png" width="5%">
+            <img  src="Credo 33 png.png" width="40%" style="margin-top: 30px;margin-bottom: 30px;">
+            <p>We will contact you</p>
+            <input id="username" type="text" name="username" placeholder="Name Surname">
+            <input  id ="usernumber" type="text" name="num" placeholder="Phone number">
+            <input  id ="usermail" type="text" name="mail" placeholder="Quantity">
+             <input  id ="usermail" type="text" name="mail" placeholder="Postcode">
+
+            <button id = "question"   onclick = "close_popup2()" class="btn btn-success" style="color: black;">Submit</button>
+          </div>
+         </div>    
+        
+        
+    </div>
+    </div>
+    <div class="image">
+    <img onmouseover="bigImg2(this)" onmouseout="normalImg2(this)" id="cover3" src="cover-3.jpg">   
+    </div>
+    </div>
+    </div>
+    </div>
+     <br>
+    <br>
+    <br>
+    <br>
+    <div id="abt">About</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="main_text">
+    <div id="fn">Field notes</div>
+    <div id="peek">Peek behind the curtain: we love sharing our process and thoughts on indie publishing through <a href="#" id="blog">our blog.</a></div>
+       
+    <div class="minitxt">
+    <div class="mtxt1"> <a class="colorblack" href="#">Offscreen is taking a break</a> -> <br/>
+Seven years ago, when I first thought about ‘a print magazine for pixel people; I could have never imagined that today I'd still be answering emails from readers or preparing orders for fulfilment. What starte...
+    </div>
+    <div class="mtxt2"><a class="colorblack" href="#">Letter to the editor</a> -> <br/>
+Hi Kai, I live in Richmond, Virginia, USA which is about 1.5 hrs drive south of Washington D.C. There's a wide range of stereotypes about American's but I'm probably in line with many of the ...s
+    </div>
+    <div class="mtxt3"><a class="colorblack" href="#">Issue 20 is here!</a> ->
+It's been seven years since I started working on the first issue of Offscreen. And today I'm happy to announce the release of issue 20! To celebrate, issue 20 is printed with a special metallic Pantone colour...
+    </div>
+    </div>
+    </div>
+     <div class="stock">
+    <div id="stoc">Stockists</div>
+    <div id="stoc2"><a href="#" id="wq">Buy or subscribe</a> online or grab a copy from one of our 108 global stockists.</div>
+          <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Pick a country...</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Atyrau</a>
+    <a href="#about">Almaty</a>
+    <a href="#contact">Astana</a>
+    </div>
+    <img src="scr.jpg" width="180px" id="az">
+</div>
+    </div>
+          <div class="outceo">
+          <div class="ceo">
+    <div class="ceoinfo"> <a id="oneman">A one-man magazine</a><br><br><br>
+
+
+
+<div class="ceotext">Originally a web designer, Kai Brach released the first issue of Offscreen in early 2012. Weary of the fast pace and the ephemeral nature of digital, after ten years as a web designer Kai decided to create something more tangible. In the span of six months, Kai ‘converted’ from a UI designer to a print publisher, not only conducting and editing all interviews but also designing the magazine and building his own distribution network. Offscreen largely remains a one-man operation and a proudly independent magazine supported by readers, patrons, and sponsors.
+<br><br>
+
+Based in Melbourne, Australia, Kai hopes to reinvigorate printed magazines as a choice of media that provides a welcome break from our always-on lifestyle. With Offscreen he combines his love for technology and the web and the unique, mulitsensory experience of print.</div></div>
+              
+              <div class="ceophoto"><iframe  width="600" src="https://www.youtube.com/embed/_xG68lkrMDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    
+    
+    </div>  
+              </div>
+    
+    <script src="main.js"></script>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="section-footer">
+                    <div class="footer">
+                        <div class="contacts">
+                            <h2 style="font-weight: bold;" id="cont">Contacts:</h2>
+                            <div class="insta-class">
+                                <img id="inst-logo" src="https://www.jansushi.kz/images/footer__insta.png" alt="">
+                                <a href="https://instagram.com/sdukz">@sdu.kz</a>
+                            </div>
+                            <div class="site-class">
+                                <img id="site-logo" src="web.png" alt=""> <a href="https://sdu.edu.kz/ru/suleyman-demirel-university-ru/">www.sdu.edu.kz</a>
+                            </div> 
+                            <div class="phone-class">
+                                <img id="phone-logo" src="https://www.jansushi.kz/images/phone.png" alt="">+7 (707) 896 80 28
+                            </div>
+                            <div class="address-class">
+                                <img src="https://www.jansushi.kz/images/map.png" alt="" > Abylaikhan 1/1, Kaskelen, Almaty
+                            </div>
+                            <div class="github-class">
+    
+                            </div>
+                        </div>
+                        <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.083317109452!2d76.66686015116338!3d43.20774177903675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2sSDU!5e0!3m2!1sen!2skz!4v1604065614656!5m2!1sen!2skz" width="400px" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    </div>
+    
+    
+    
+    
+        <div class="center"> 
+            <div id="adv">
+                <div>
+                    <img id="cancel" width="20px" src="cancel.png">
+                    <img id="check" width="20px" src="check.png"> 
+                    <img id="up" width="20px" src="up-arrow.png"> 
+                    <img id="logout" width="20px" src="logout.png"> 
+                </div>
+                <div id="masterCl" style="display: none;"><strong>learn web-programming/frontend</strong></div>
+                
+                <div id="address" style="display: none;" >Address</div>
+                <div id="street">Thomas Street 156</div>
+            </div>
+            <div id="upInfo">
+                <ul>
+                    <li>Web Design</li>
+                    <li>Features</li>
+                    <li>HTML</li>
+                    <li>JS</li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    <script>
+            $("#cancel").click(function(){
+            $("#adv").hide(1000);
+            $("#upInfo").hide(1000);
+            });
+            $("#address").click(function(){
+            $("#street").show(2000);
+            });
+            $("#check").click(function(){
+            $("#masterCl").fadeToggle();
+            });
+            $("#up").click(function(){
+            $("#adv").fadeTo("slow", 0.5);
+            $("#adv").animate({height: "70px"}, 1000);
+            $("#upInfo").slideDown(1000);
+            });
+            $("#upInfo").click(function(){
+            $("#upInfo").stop();
+            });
+            $("#logout").click(function(){
+            $("#upInfo").slideUp(1000);
+            });
+    </script>
+    
+    
+    
+</body>
+</html>
